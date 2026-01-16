@@ -20,3 +20,10 @@ for(int i = 0; i < numbers.Count; i++)
 {
     Console.WriteLine(numbers[i]);
 }
+
+Console.WriteLine("-----------------------");
+
+foreach(int nr in numbers)
+{
+    Console.WriteLine(nr);
+}
