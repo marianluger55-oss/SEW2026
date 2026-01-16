@@ -3,6 +3,9 @@ List<int> numbers = new List<int>(); //keine Größenangabe
 
 numbers.Add(10);
 numbers.Add(20);
+numbers.Add(30);
+numbers.Add(40);
+numbers.Add(50); 
 
 int nrofElements = numbers.Count; //readonly Property
 Console.WriteLine(nrofElements);
@@ -39,4 +42,4 @@ if(numbers.Contains(5))
 }
 
 
-
+Console.WriteLine($"Capacity {numbers.Capacity}");
