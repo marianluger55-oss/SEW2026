@@ -27,3 +27,16 @@ foreach(int nr in numbers)
 {
     Console.WriteLine(nr);
 }
+
+int sum = numbers.Sum(); 
+double avg = numbers.Average();
+int max = numbers.Max();
+bool contains = numbers.Contains(5);
+
+if(numbers.Contains(5))
+{
+    Console.WriteLine("Super...");
+}
+
+
+
