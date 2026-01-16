@@ -10,3 +10,13 @@ Console.WriteLine(nrofElements);
 Console.WriteLine(numbers[1]); //indizierter Zugriff 
 
 numbers[1] = 5; //indizierter Zugriff
+
+if (nrofElements > 100) 
+{
+    numbers[100] = 7; 
+}
+
+for(int i = 0; i < numbers.Count; i++)
+{
+    Console.WriteLine(numbers[i]);
+}
