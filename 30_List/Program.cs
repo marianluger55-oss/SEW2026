@@ -43,3 +43,14 @@ if(numbers.Contains(5))
 
 
 Console.WriteLine($"Capacity {numbers.Capacity}");
+
+
+List<string> classmates = new List<string>();
+
+classmates.Add("Joachim Halmetschlager");
+classmates.Add("Tim Gerber");
+
+foreach (string s in classmates)
+{
+    Console.WriteLine(s);
+}
